@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">NMedia</string>
+    <string name="countLikesTextView" translatable="false">100</string>
+    <string name="countRepostsTextView" translatable="false">1</string>
+    <string name="viewsCountTextView" translatable="false">1000</string>
+
     <string name="description_post_author_avatar">Post author avatar</string>
     <string name="description_post_menu">Post menu</string>
-    <string name="countLikes" translatable="false">100</string>
-    <string name="countReposts" translatable="false">1</string>
-    <string name="viewsCount" translatable="false">1000</string>
+    <string name="description_like">Like</string>
+    <string name="description_sharePost">Share post</string>
+    <string name="description_views">Views</string>
 </resources>
