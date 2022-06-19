@@ -12,19 +12,19 @@ class PostViewHolder(
 ) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(post: Post) {
-        binding.sharePostImageButton.setOnClickListener {
-            onShareListener(post)
-        }
-        binding.likeImageButton.setOnClickListener {
-            onLikeListener(post)
-        }
         binding.apply {
             authorTextView.text = post.author
             countLikesTextView.text = countStringConverter(post.likes)
             contentTextView.text = post.content
             publishedTextView.text = post.published
             likeImageButton.setImageResource(getLikeIconRes(post.likedByMe))
+            likeImageButton.setOnClickListener {
+                onLikeListener(post)
+            }
             countShareTextView.text = countStringConverter(post.countShare)
+            sharePostImageButton.setOnClickListener {
+                onShareListener(post)
+            }
         }
     }
 
