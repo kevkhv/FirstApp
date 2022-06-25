@@ -6,4 +6,10 @@
     <string name="description_sharePost">Поделиться</string>
     <string name="description_views">Просмотры</string>
     <string name="description_like">Нравится</string>
+    <string name="remove">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="post_text">Текст поста</string>
+    <string name="description_post_create">Создать пост</string>
+    <string name="cancel_edit">Отменить редактирование</string>
+    <string name="editInfo">Редактирование поста</string>
 </resources>
