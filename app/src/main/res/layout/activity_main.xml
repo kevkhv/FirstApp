@@ -29,16 +29,16 @@
         android:id="@+id/contentEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="@string/post_text"
-        android:inputType="textMultiLine"
         android:background="@android:color/transparent"
-        android:padding="@dimen/common_spacing"
+        android:hint="@string/post_text"
         android:importantForAutofill="no"
-        app:layout_constraintTop_toTopOf="@id/toolsTop"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:padding="@dimen/common_spacing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/saveImageButton"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="@id/toolsTop" />
 
     <ImageButton
         android:id="@+id/saveImageButton"

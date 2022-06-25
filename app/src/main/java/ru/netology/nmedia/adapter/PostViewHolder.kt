@@ -1,10 +1,14 @@
 package ru.netology.nmedia.adapter
 
+import android.widget.EditText
 import android.widget.PopupMenu
 import androidx.recyclerview.widget.RecyclerView
+import ru.netology.nmedia.MainActivity
 import ru.netology.nmedia.dto.Post
 import ru.netology.nmedia.R
+import ru.netology.nmedia.databinding.ActivityMainBinding
 import ru.netology.nmedia.databinding.CardPostBinding
+import ru.netology.nmedia.utils.AndroidUtils
 
 class PostViewHolder(
     private val binding: CardPostBinding,

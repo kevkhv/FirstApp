@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                     if (text.isNullOrBlank()) {
                         Toast.makeText(
                             this@MainActivity,
-                            "Content can't be empty",
+                            R.string.errorEmptyMessage,
                             Toast.LENGTH_SHORT
                         ).show()
                         return@setOnClickListener
@@ -69,6 +69,7 @@ class MainActivity : AppCompatActivity() {
                 lastContentTextView.text = post.content
                 editConstraintLayout.visibility = View.VISIBLE
                 cancelImageButton.setOnClickListener {
+                    viewModel.cancelEdit()
                     editConstraintLayout.visibility = View.GONE
                     contentEditText.setText("")
                     contentEditText.clearFocus()
