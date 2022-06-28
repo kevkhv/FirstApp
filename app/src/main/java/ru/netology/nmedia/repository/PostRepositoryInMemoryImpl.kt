@@ -7,7 +7,6 @@ import ru.netology.nmedia.dto.Post
 class PostRepositoryInMemoryImpl : PostRepository {
 
     private var nextId = 1
-
     private var posts = listOf(
         Post(
             id = nextId++,
@@ -91,11 +90,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             countShare = 2
         )
     ).reversed()
-
     private val data = MutableLiveData(posts)
-
     override fun get(): LiveData<List<Post>> = data
-
     override fun like(postId: Int) {
         posts = posts.map {
             if (it.id != postId) it
