@@ -3,10 +3,17 @@
     <string name="countLikesTextView" translatable="false">100</string>
     <string name="countRepostsTextView" translatable="false">1</string>
     <string name="viewsCountTextView" translatable="false">1000</string>
-
     <string name="description_post_author_avatar">Post author avatar</string>
     <string name="description_post_menu">Post menu</string>
     <string name="description_like">Like</string>
     <string name="description_sharePost">Share post</string>
     <string name="description_views">Views</string>
+    <string name="description_post_create" >Post create</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="post_text" >Post text</string>
+    <string name="editInfo">Edit post</string>
+    <string name="cancel_edit">Cancel edit</string>
+    <string name="errorEmptyMessage">Content can\'t be empty</string>
+
 </resources>
