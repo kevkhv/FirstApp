@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    // MaterialDesign
+    implementation("com.google.android.material:material:1.6.1")
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
     // LiveData

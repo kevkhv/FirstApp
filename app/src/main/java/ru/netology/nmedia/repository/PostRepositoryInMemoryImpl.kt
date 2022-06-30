@@ -90,8 +90,11 @@ class PostRepositoryInMemoryImpl : PostRepository {
             countShare = 2
         )
     ).reversed()
+
     private val data = MutableLiveData(posts)
+
     override fun get(): LiveData<List<Post>> = data
+
     override fun like(postId: Int) {
         posts = posts.map {
             if (it.id != postId) it
