@@ -16,4 +16,9 @@
         <item name="android:textColor">?attr/colorControlNormal</item>
         <item name="rippleColor">@android:color/transparent</item>
     </style>
+    <style name="Widget.AppTheme.UrlStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
 </resources>
