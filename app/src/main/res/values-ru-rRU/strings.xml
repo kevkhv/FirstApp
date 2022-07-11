@@ -13,4 +13,7 @@
     <string name="cancel_edit">Отменить редактирование</string>
     <string name="editInfo">Редактирование поста</string>
     <string name="errorEmptyMessage">Контент не может быть пустым</string>
+    <string name="description_post_save">Сохранить пост</string>
+    <string name="video_cover">Обложка видео</string>
+    <string name="play">Воспроизвести</string>
 </resources>

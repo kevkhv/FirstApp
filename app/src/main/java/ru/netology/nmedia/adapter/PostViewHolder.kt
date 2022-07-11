@@ -1,5 +1,6 @@
 package ru.netology.nmedia.adapter
 
+import android.view.View
 import android.widget.PopupMenu
 import androidx.recyclerview.widget.RecyclerView
 import ru.netology.nmedia.dto.Post
@@ -8,11 +9,17 @@ import ru.netology.nmedia.databinding.CardPostBinding
 
 class PostViewHolder(
     private val binding: CardPostBinding,
-    private val onInteractionListener : OnInteractionListener
+    private val onInteractionListener: OnInteractionListener
 ) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(post: Post) {
+
         binding.apply {
+            videoContainer.visibility = View.VISIBLE
+            urlTextView.text = if (post.video != null) post.video else {
+                videoContainer.visibility = View.GONE
+                null
+            }
             authorTextView.text = post.author
             contentTextView.text = post.content
             publishedTextView.text = post.published
@@ -25,11 +32,17 @@ class PostViewHolder(
             sharePostImageButton.setOnClickListener {
                 onInteractionListener.onShare(post)
             }
+            videoImageView.setOnClickListener {
+                onInteractionListener.onPlayVideo(post)
+            }
+            playVideo.setOnClickListener {
+                onInteractionListener.onPlayVideo(post)
+            }
             menuImageButton.setOnClickListener {
                 PopupMenu(it.context, it).apply {
                     inflate(R.menu.options_post)
                     setOnMenuItemClickListener { item ->
-                        when(item.itemId) {
+                        when (item.itemId) {
                             R.id.remove -> {
                                 onInteractionListener.onRemoveById(post)
                                 true

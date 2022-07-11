@@ -155,12 +155,10 @@
             android:contentDescription="@string/play"
             android:outlineSpotShadowColor="@android:color/transparent"
             app:backgroundTint="@android:color/transparent"
-            app:borderWidth="0dp"
             app:layout_constraintBottom_toBottomOf="@+id/videoImageView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/videoImageView"
             app:layout_constraintTop_toTopOf="@+id/videoImageView"
-            app:maxImageSize="48dp"
             app:srcCompat="@drawable/ic_baseline_play_arrow_24"
             app:tint="#FFFFFF" />
 

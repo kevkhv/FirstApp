@@ -2,6 +2,7 @@ package ru.netology.nmedia.vewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.google.android.material.datepicker.SingleDateSelector
 import ru.netology.nmedia.dto.Post
 import ru.netology.nmedia.repository.PostRepository
 import ru.netology.nmedia.repository.PostRepositoryInMemoryImpl
@@ -21,9 +22,15 @@ class PostViewModel : ViewModel() {
     val data = repository.get()
     val edited = MutableLiveData(empty)
 
+
     fun like(postId: Int) = repository.like(postId)
-    fun share(postId: Int) = repository.share(postId)
+
+    fun share(post: Post) {
+        repository.share(post.id)
+    }
+
     fun removeByID(postId: Int) = repository.removeByID(postId)
+
     fun save() {
         edited.value?.let {
             repository.save(it)
@@ -43,9 +50,5 @@ class PostViewModel : ViewModel() {
 
     fun edit(post: Post) {
         edited.value = post
-    }
-
-    fun cancelEdit() {
-        edited.value = empty
     }
 }

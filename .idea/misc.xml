@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_add_24dp.xml" value="0.187" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1745" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_cancel_48.xml" value="0.1" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1745" />
@@ -13,15 +14,21 @@
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.1745" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1745" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.2115" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1875" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.187" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1875" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1953125" />
-        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_like_24dp.xml" value="0.19" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_more_vert_24.xml" value="0.1875" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_netology_48dp.xml" value="0.19" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_netology_original_48dp.xml" value="0.1" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_ok_24dp.xml" value="0.187" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/drawable/ic_outline_visibility_24.xml" value="0.2195" />
-        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/card_post.xml" value="0.33" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout-v28/card_post.xml" value="0.203125" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/activity_intent_handler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/activity_new_post.xml" value="0.33" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/activity_new_post_content.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/card_post.xml" value="0.4410187667560322" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/layout.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/layout/post_card.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/KEVKHV/AndroidStudioProjects/AND_FirstProject/app/src/main/res/menu/options_menu.xml" value="0.20416666666666666" />
