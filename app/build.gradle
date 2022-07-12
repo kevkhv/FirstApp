@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    // SharedPreferences
+    implementation "com.google.code.gson:gson:2.9.0"
     // MaterialDesign
     implementation("com.google.android.material:material:1.6.1")
     // ViewModel
