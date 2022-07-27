@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import ru.netology.nmedia.db.AppDb
 import ru.netology.nmedia.dto.Post
 import ru.netology.nmedia.repository.PostRepository
-import ru.netology.nmedia.repository.SQLiteRepository
+import ru.netology.nmedia.repository.PostRepositoryImpl
 
 private val empty = Post(
     id = 0,
@@ -19,15 +19,13 @@ private val empty = Post(
 )
 
 class PostViewModel(application: Application) : AndroidViewModel(application) {
-    private val repository: PostRepository = SQLiteRepository(dao = AppDb.getInstance(context = application).postDao)
+    private val repository: PostRepository = PostRepositoryImpl(dao = AppDb.getInstance(context = application).postDao)
     val data = repository.get()
     val edited = MutableLiveData(empty)
 
     fun like(postId: Int) = repository.like(postId)
 
-    fun share(post: Post) {
-        repository.share(post.id)
-    }
+    fun share(postId: Int) = repository.share(postId)
 
     fun removeByID(postId: Int) = repository.removeByID(postId)
 
